@@ -1,0 +1,51 @@
+.header {
+  background-color: green;
+  margin-top: 0px;
+  height: 50px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-me {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-icons {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 30px;
+}

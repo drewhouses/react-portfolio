@@ -1,17 +1,17 @@
-import "./App.css";
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
-import Project from "./components/Project";
+import "./assets/style/Normalize.css";
+import "./assets/style/App.css";
 
 function App() {
+  const cName = "Drew's Company";
   return (
-    <div className="portfolio">
-      <Header />
-      <Navigation />
-      <Project />
+    <>
+      <Header cName={cName} />
+      <Outlet />
       <Footer />
-    </div>
+    </>
   );
 }
 
