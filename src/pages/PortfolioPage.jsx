@@ -1,5 +1,11 @@
-
+import Project from "../components/Project";
+import "../assets/style/App.css";
 
 export default function PortfolioPage() {
-  return <div>This my Portfolio Page</div>;
+  return (
+    <>
+      <h2 className="project-section-title">Projects</h2>
+      <Project />
+    </>
+  );
 }

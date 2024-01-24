@@ -1,9 +1,7 @@
-import { Button } from "react-bootstrap";
-
 export default function HomePage() {
   return (
     <div>
-      <Button variant="primary">Primary</Button>
+      <h2>This is my Homepage! Tada!!!!</h2>
     </div>
   );
 }

@@ -17,34 +17,35 @@ export default function ContactPage() {
   };
 
   return (
-    <Form onSubmit={submitContact}>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control
-          type="email"
-          placeholder="Enter email"
-          name="email"
-          value={form.email}
-          onChange={handleChange}
-        />
-      </Form.Group>
+    <div className="container col-lg-6">
+      <Form onSubmit={submitContact}>
+        <p>Please reach out to me below: </p>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control
+            type="email"
+            placeholder="Enter email"
+            name="email"
+            value={form.email}
+            onChange={handleChange}
+          />
+        </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Message</Form.Label>
-        <Form.Control
-          type="text"
-          placeholder="message"
-          onChange={handleChange}
-          name="message"
-          value={form.message}
-        />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Message</Form.Label>
+          <Form.Control
+            as="textarea"
+            type="textarea"
+            placeholder="Enter your message here..."
+            onChange={handleChange}
+            name="message"
+            value={form.message}
+          />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
+    </div>
   );
 }

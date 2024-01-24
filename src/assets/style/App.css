@@ -1,19 +1,40 @@
 .header {
-  background-color: green;
+  background-color: #283618;
   margin-top: 0px;
+  margin-bottom: 0px;
   height: 50px;
   align-items: center;
+  color: white;
+}
+
+html {
+  background-color: #283618;
+}
+
+#root {
+  background-color: #283618;
+  color: white;
 }
 
 .nav {
   display: flex;
   justify-content: space-evenly;
+  background-color: #2a9d8f;
+}
+
+.nav ul {
+  border-bottom-width: 0px;
+}
+
+.nav-tabs {
+  border-bottom-width: 0px;
 }
 
 .nav-item {
   text-decoration: none;
   color: black;
   list-style-type: none;
+  border-bottom-width: 0px;
 }
 
 a:visited {
@@ -43,9 +64,47 @@ a:active {
   justify-content: space-evenly;
 }
 
+.card-title {
+  color: black;
+}
+
+.project-description {
+  text-decoration: none;
+}
+
+.contact-me {
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+}
+
 .footer-icons {
   text-decoration: none;
   list-style-type: none;
   color: black;
   font-size: 30px;
+}
+
+.project-card {
+  margin: 30px;
+}
+
+.aboutme-img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: 400px;
+  margin-right: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: solid 5px whitesmoke;
+  margin-top: 30px;
+  margin-right: 30px;
 }
