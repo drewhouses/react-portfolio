@@ -1,25 +1,38 @@
+* {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .header {
-  background-color: #283618;
+  background-color: #352f44;
   margin-top: 0px;
-  margin-bottom: 0px;
-  height: 50px;
+  margin-bottom: 50px;
+  height: 80px;
   align-items: center;
   color: white;
+  text-align: center;
+  font-size: 100px;
 }
 
 html {
-  background-color: #283618;
+  background-color: #352f44;
+}
+
+.nav-dropdown {
+  margin-top: 8px;
 }
 
 #root {
-  background-color: #283618;
+  background-color: #352f44;
   color: white;
 }
 
 .nav {
   display: flex;
   justify-content: space-evenly;
-  background-color: #2a9d8f;
+  background-color: #352f44;
 }
 
 .nav ul {
