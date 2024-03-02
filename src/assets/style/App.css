@@ -1,3 +1,4 @@
+/* ========================= GENERAL ======================= */
 * {
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
@@ -6,33 +7,32 @@
 }
 
 .header {
-  background-color: #352f44;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  height: 80px;
-  align-items: center;
-  color: white;
-  text-align: center;
+  background-color: #1d2d50;
   font-size: 100px;
 }
 
 html {
-  background-color: #352f44;
+  background-color: #2c4053;
 }
 
+#root {
+  background-color: #1d2d50;
+  color: white;
+}
+
+/* ========================= Nav Bar ====================== */
 .nav-dropdown {
   margin-top: 8px;
 }
 
-#root {
-  background-color: #352f44;
+.nav-container {
   color: white;
 }
 
 .nav {
   display: flex;
   justify-content: space-evenly;
-  background-color: #352f44;
+  background-color: #1d2d50;
 }
 
 .nav ul {
@@ -67,6 +67,33 @@ a:active {
   text-decoration: none;
   color: black;
 }
+.navbar,
+.navbar-default {
+  background-image: linear-gradient(
+    to bottom,
+    #1d2d50 0,
+    #1d2d50 100%
+  ) !important; /* override background image gradient w/ flat color */
+}
+
+.nav-link {
+  color: whitesmoke !important;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.typed-name {
+  width: 150px;
+  font-size: 27px;
+  margin-left: 15px;
+}
+
+.splash-image {
+  width: 100vw;
+  height: auto;
+}
 
 .contact-me {
   position: absolute;
@@ -75,6 +102,25 @@ a:active {
   height: 2.5rem;
   display: flex;
   justify-content: space-evenly;
+}
+
+.contact-me a {
+  color: #e8eced;
+}
+
+.contact-me a i {
+  color: #e8eced;
+}
+
+.fa-twitter,
+.fa-github {
+  position: relative;
+  top: 3px;
+}
+
+.linkedin-icon {
+  position: relative;
+  top: 7px;
 }
 
 .card-title {
@@ -88,7 +134,7 @@ a:active {
 .contact-me {
   height: 35px;
   width: 100%;
-  background-color: white;
+  background-color: #1d2d50;
   background-image: none;
   background-repeat: repeat;
   background-attachment: scroll;
