@@ -62,13 +62,14 @@ a:active {
   text-decoration: underline;
   color: black;
 }
+
 .navbar,
 .navbar-default {
   background-image: linear-gradient(
     to bottom,
     #1d2d50 0,
     #1d2d50 100%
-  ) !important; /* override background image gradient w/ flat color */
+  ) !important; /*override background image gradient w/ flat color */
 }
 
 .nav-link {
@@ -161,4 +162,8 @@ a:active {
 
 .aboutme-text {
   font-size: larger;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
 }

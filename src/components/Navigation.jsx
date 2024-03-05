@@ -8,7 +8,7 @@ function Navigation() {
   const currentPage = useLocation().pathname;
 
   return (
-    <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
+    <Navbar variant="dark" fixed="top" expand="lg" className="bg-body-tertiary">
       <div className="typed-name">
         <ReactTyped
           strings={["Drew Casas"]}
