@@ -11,7 +11,7 @@ import "../assets/style/App.css";
 
 function Project() {
   return (
-    <Row xs={1} md={2} className="g-5 mx-5 card-group">
+    <Row xs={1} md={2} lg={3} className="g-5 mx-5 card-group">
       <Col>
         <Card className="project-card">
           <a href="https://github.com/drewhouses/wizard-escape">
@@ -20,8 +20,8 @@ function Project() {
           <Card.Body>
             <Card.Title>Maloch Cometh</Card.Title>
             <Card.Text className="project-description">
-              Maloch Cometh is a point and click adventure puzzle game playable
-              from the browswer. You can visit the GitHub repo{" "}
+              Point and click adventure puzzle game playable from the browswer.
+              Visit the GitHub repo{" "}
               <a href="https://murmuring-springs-90075-ee5dfd14bef1.herokuapp.com/">
                 here
               </a>
@@ -35,8 +35,8 @@ function Project() {
           <Card.Body>
             <Card.Title>Social Network API</Card.Title>
             <Card.Text className="project-description">
-              A social network API that uses a MongoDB backend. You can visit
-              the GitHub repo{" "}
+              A social network API that uses a MongoDB backend. Visit the GitHub
+              repo{" "}
               <a href="https://github.com/drewhouses/social-network-api">
                 here
               </a>
@@ -50,7 +50,7 @@ function Project() {
           <Card.Body>
             <Card.Title>Workday Scheduling App</Card.Title>
             <Card.Text className="project-description">
-              You can visit the GitHub repo{" "}
+              Visit the GitHub repo{" "}
               <a href="https://github.com/drewhouses/m5-workday-scheduler">
                 here
               </a>
@@ -66,8 +66,8 @@ function Project() {
           <Card.Body>
             <Card.Title>Freddy`s Flick Picks</Card.Title>
             <Card.Text className="project-description">
-              This is a random horror movie generator web application to help
-              get you ready for the spooky season. You can visit the GitHub repo{" "}
+              Random horror movie generator to help get you ready for the spooky
+              season. Visit the GitHub repo{" "}
               <a href="https://github.com/drewhouses/freddys-flick-picks">
                 here
               </a>
@@ -81,8 +81,7 @@ function Project() {
           <Card.Body>
             <Card.Title>Tech Blog</Card.Title>
             <Card.Text className="project-description">
-              Tech Blog web application that allows you to signup and share blog
-              posts with other users. You can visit the GitHub repo{" "}
+              Tech Blog web application. Visit the GitHub repo{" "}
               <a href="https://github.com/drewhouses/tech-blog">here</a>
             </Card.Text>
           </Card.Body>
@@ -94,8 +93,8 @@ function Project() {
           <Card.Body>
             <Card.Title>E-Commerce Backend</Card.Title>
             <Card.Text className="project-description">
-              ExpressJS application tha tconnects to a MySQL backend DB using
-              Sequelize. You can visit the GitHub repo{" "}
+              ExpressJS application with MySQL backend DB using Sequelize. Visit
+              the GitHub repo{" "}
               <a href="https://github.com/drewhouses/ecommerce-backend">here</a>
             </Card.Text>
           </Card.Body>
