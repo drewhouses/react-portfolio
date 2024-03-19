@@ -9,19 +9,21 @@ function Navigation() {
 
   return (
     <Navbar variant="dark" fixed="top" expand="lg" className="bg-body-tertiary">
-      <div className="typed-name">
-        <ReactTyped
-          strings={["Drew Casas"]}
-          typeSpeed={100}
-          showCursor={true}
-        ></ReactTyped>
-      </div>
+      <Link className="home-link">
+        <div className="typed-name">
+          <ReactTyped
+            strings={["Drew Casas"]}
+            typeSpeed={100}
+            showCursor={true}
+          ></ReactTyped>
+        </div>
+      </Link>
       <div>
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#link">
+              {/* <Nav.Link href="#link">
                 <Link
                   to="/About"
                   className={
@@ -30,7 +32,7 @@ function Navigation() {
                 >
                   About Me
                 </Link>
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link>
                 {" "}
                 <Link
