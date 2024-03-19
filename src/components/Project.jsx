@@ -7,12 +7,12 @@ import freddyImage from "../assets/images/freddy.png";
 import schedulerImage from "../assets/images/workday-scheduler.png";
 import techBlogImage from "../assets/images/techblog.png";
 import ecommerceImage from "../assets/images/ecommerse.png";
-import hobbyImage from "../assets/images/hobbyshop.PNG";
+import hobbyImage from "../assets/images/hobbyshop.png";
 import "../assets/style/App.css";
 
 function Project() {
   return (
-    <Row xs={1} md={2} lg={2} className="g-5 mx-5 card-group">
+    <Row xs={1} md={1} lg={2} className="g-5 mx-5 card-group">
       <Col>
         <Card className="project-card">
           <a href="https://hobby-ecommerce.onrender.com/">
