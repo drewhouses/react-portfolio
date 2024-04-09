@@ -189,6 +189,13 @@ a:active {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .project-img {
+    height: 200px;
+    width: 250px;
+  }
+}
+
 /* Screens 992px or less */
 @media screen and (max-width: 992px) {
   .project-img {
@@ -207,11 +214,9 @@ a:active {
     height: 200px;
   }
 
-  /*
-  .project-card {
-  } 
-  Possibly resizing card height for smaller screens
-  */
+  /* Possibly resizing card height for smaller screens */
+  /* .project-card {
+  } */
 
   .aboutme-img {
     margin-left: auto;
