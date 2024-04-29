@@ -20,15 +20,12 @@ html {
 }
 
 /* ========================= Nav Bar ====================== */
-.nav-dropdown {
-  margin-top: 8px;
-}
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: space-evenly;
   background-color: #1d2d50;
-}
+} */
 
 .nav ul {
   border-bottom-width: 0px;
