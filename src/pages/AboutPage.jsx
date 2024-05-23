@@ -14,6 +14,10 @@ export default function AboutPage() {
         foundational knowledge in how things work before taking on the challenge
         of becoming a web developer.
       </p>
+      <p className="aboutme-text">
+        My main goal currenlty is to find work designing and maintaining
+        real-world applications that will help me gain more exprience
+      </p>
       <h3>Education</h3>
       <p className="aboutme-text">
         I graduated from Rochester Institute of Technology with a degree in
@@ -36,7 +40,7 @@ export default function AboutPage() {
       </p>
       <p className="aboutme-text">
         Lastly, you can also check out my X, GitHub, or LinkedIn accounts with
-        the links found in the footer.
+        the links found below.
       </p>
     </div>
   );
