@@ -1,4 +1,4 @@
-import resumeFile from "../assets/DrewCasasResume.pdf";
+import resumeFile from "../assets/ResumeFinal.pdf";
 
 export default function ResumePage() {
   return (
